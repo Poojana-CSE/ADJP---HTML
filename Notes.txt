@@ -1,0 +1,183 @@
+ Difference between client and server?
+What is desktop application?
+What is web application?
+Difference between an application and web application
+What is website?
+What is webpage?
+
+HTML
+========
+Hyper Text Markup Language
+-- It is a web desining 
+-- It has no compliler
+  HTML-->Hypertext Markup language
+Tim berners Lee
+
+Platform Independent
+
+Non-case Sensitive Language
+
+2 types of Web page
+
+1)Static web page
+2)Dynamic web page
+
+<tag>-->Starting of Tag
+</tag>-->Closing of Tag
+
+Tags:
+----
+<html></html>-->starting and closing of HTML
+<head><title>-->Create title for browser
+
+<html>  
+<head>
+    <title> Title Text </title>
+</head>
+<body>
+
+
+Body 
+     Bgcolor --> set the background color
+     Background > set the background image [src=<imagePath>]
+     text=set the text color
+     Link	== set the link color
+     ALink   	== set the Active link color
+     VLink	== set the Visited link color
+Font
+   Face == Font Style
+   size == font size
+   color== Font Color
+<p> To specify the paragraph
+     align-->align the paragraph as center,left,right
+Formating Tag's
+=============
+<b> or <strong> Bold
+<i>  or <em> italic
+<u> or <ins> underline
+<mark> to highlight the text
+<del> to strikeout the text
+<sup> Super Script Text
+<sub> Sub Script Text
+Additional Formating Tags
+------------------------------
+<abbr title="Abbreviation"> To create an abbreviation for a Text
+<q> Specify the text between quoatation mark
+<blockquote> Display the text with  indent 
+<bdo dir="rtl/ltr> Specify the Text Left To Right / Right To Left (Bi Directional Override)
+<address> Standard format of show address
+<cite> Standard format of show Citation
+<code> Standard format of show Coding
+Heading Tag's
+===========
+<h1>  heading  1 [bigsize]
+<h2>  heading  2 [smallerthan h1]
+<h3>  heading  3 [smallerthan h2]
+<h4>  heading  4 [smallerthan h3]
+<h5>  heading  5 [smallerthan h4]
+<h6>  heading  6 [smallerthan h5]
+
+HR Horizontal Ruler
+   Size   == Line thickness
+   Width == Line length 
+   Align== Left/Right/ Center
+   Color == Line color
+   Noshade
+Image
+   src  == image location 
+   height  == image height
+   width ==  image width
+   border  == border width of image
+   alt  == alternate text if image could not be loaded
+   align=left/right/top/bottom
+   vspace==Vertical Space
+   hspace==Horiz. Space
+
+Marquee
+   direction == left / right / up /down
+   bgcolor== background color for the marquee text
+   loop== number of times repeat
+   width== in percent (like 10%)
+   height== in percent (like 10%)
+   behavior==scroll/slide/alternate
+   scrolldelay==delay in seconds like 10/20
+   scrollamount==speed like 10/20
+   hspace=Hor.Space in percent
+  Vspace=Vertical Space in percent
+
+OL  - Order List
+  type = 1 / a  /A  /i /I
+  start= starting number
+<li> specifies the list item
+
+UL - Un Order List
+  type = circle / square / disc
+<li> specifies the list item
+<A> - Anchor 
+   href== file path to link
+   target= New (will open in a new window) / frame name/_blank/_self/_parent/_top
+   download== will download the specied file
+   rel==alternate/author/bookmark/external/help/license/next/nofollow/noreferrer/noopener/prev/search/tag
+   shape==default/rect/circle/poly
+Frameset
+   Rows [25%,25%,25%,25%]  
+   Cols [25%,25%,25%,25%]
+frame
+   src  == File path
+   name== splited frame name
+   scrolling=yes/No/Auto
+   border=0/1
+   noresize="noresize"
+Table
+  cellspacing=The space between the cells
+  cellpading= The space between the data and the cell border
+  bgcolor=color 
+  background=image
+  boder=number
+  align= left/center/right
+< caption align=top/bottom> ?</caption>
+<tr> Table Row
+   bgcolor
+   align=left/right/center
+   valign=top/middle/bottom
+<TH>
+   NOWRAP -- no wrapping
+   bgcolor
+   align=left/right/center
+   valign=top/middle/bottom
+<TD> 
+   bgcolor
+   align=left/right/center
+   valign=top/middle/bottom
+ 
+Form 
+  Name - Name to the form (user defined)
+  method - post / get
+  action= link to url / file when click the submit button
+Input
+   button/checkbox/color/date/datetime-local/email/file/hidden/image/month/number/password/radio/range/reset/search/submit/tel/text/time/url/week 
+  Type= Text / button(submit/reset/button> / Password / Radio / CheckBox
+  Value = The text which displays on the control
+  Name = name for the control
+  width
+  height
+  autofocus
+<filedset> grouping controls
+  <legend> Group Name</legend>
+label
+   --for=name
+eg: <label for="male"> Male </label>
+
+<textarea rows=rowsize cols=columnsize  disabled required maxlength autofocus>
+<select>
+   <optgroup lable=""> Grouping options
+   <option> List1< /option>
+   <option> List2< /option>
+   <option> List3< /option>
+   <option> List4< /option>
+   <option> List5< /option>
+</select>
+Multimedia
+============
+<audio source="" control autopalay muted>
+<video source="" control autopalay muted>
